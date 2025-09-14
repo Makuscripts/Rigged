@@ -197,11 +197,11 @@ tradeScamBtn.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 tradeScamBtn.TextColor3 = Color3.new(1, 1, 1)
 tradeScamBtn.Font = Enum.Font.GothamBold
 tradeScamBtn.TextSize = 15
-tradeScamBtn.Text = "Trade Scam"
+tradeScamBtn.Text = "Mutation Adder"
 tradeScamBtn.LayoutOrder = 8
 
 tradeScamBtn.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Makuscripts/NewFeatureTr/refs/heads/main/NewFeatureTr"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Makuscripts/PetMutationAdder/refs/heads/main/MakuHub"))()
 end)
 -- NEW Early Access Button
 local earlyAccessBtn = Instance.new("TextButton", buttonHolder)
