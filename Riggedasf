@@ -6,7 +6,7 @@ local LocalPlayer = Players.LocalPlayer or Players:GetPlayers()[1]
 
 -- Your exact eggChances table
 local eggChances = {
-    ["Anti Bee Egg"] = {{name="Wasp",chance=55},{name="Tarantula Hawk",chance=30},{name="Moth",chance=13.75},{name="Butterfly",chance=1},{name="Disco Bee (Divine)",chance=0}},
+    ["Anti Bee Egg"] = {{name="Wasp",chance=55},{name="Tarantula Hawk",chance=30},{name="Moth",chance=13.75},{name="Butterfly",chance=1},{name="Disco Bee (Divine)",chance=5}},
     ["Bee Egg"] = {{name="Bee",chance=65},{name="Honey Bee",chance=25},{name="Bear Bee",chance=5},{name="Petal Bee",chance=4},{name="Queen Bee",chance=0}},
     ["Bug Egg"] = {{name="Snail",chance=40},{name="Giant Ant",chance=30},{name="Caterpillar",chance=25},{name="Praying Mantis",chance=4},{name="Dragonfly (Divine)",chance=0}},
     ["Dinosaur Egg"] = {{name="Raptor",chance=35},{name="Triceratops",chance=32.5},{name="Stegosaurus",chance=28},{name="Pterodactyl",chance=3},{name="Brontosaurus",chance=1},{name="T-Rex (Divine)",chance=0}},
@@ -22,7 +22,7 @@ local eggChances = {
         {name="Tanuki",chance=17.63},
         {name="Tanchozuru",chance=8.23},
         {name="Kappa",chance=3.53},
-        {name="Kitsune",chance=0}
+        {name="Kitsune",chance=5}
     },
 ["Enchanted Egg"] = {
     {name = "Ladybug", chance = 50},
@@ -36,7 +36,7 @@ local eggChances = {
     {name = "Badger", chance = 29},
     {name = "Grizzly Bear", chance = 15},
     {name = "Barn Owl", chance = 5},
-    {name = "Swan", chance = 0},
+    {name = "Swan", chance = 5},
 },
 ["Sprout Egg"] = {
     {name="Dairy Cow", chance=50},
