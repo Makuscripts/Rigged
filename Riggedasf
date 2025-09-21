@@ -22,7 +22,7 @@ local eggChances = {
         {name="Tanuki",chance=17.63},
         {name="Tanchozuru",chance=8.23},
         {name="Kappa",chance=3.53},
-        {name="Kitsune",chance=5}
+        {name="Huge Kitsune",chance=5}
     },
 ["Enchanted Egg"] = {
     {name = "Ladybug", chance = 50},
@@ -35,7 +35,7 @@ local eggChances = {
     {name = "Robin", chance = 50},
     {name = "Badger", chance = 29},
     {name = "Grizzly Bear", chance = 15},
-    {name = "Barn Owl", chance = 5},
+    {name = "Huge Barn Owl", chance = 5},
     {name = "Swan", chance = 5},
 },
 ["Sprout Egg"] = {
