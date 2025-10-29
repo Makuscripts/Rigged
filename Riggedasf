@@ -29,7 +29,7 @@ local eggChances = {
     {name = "Pixie", chance = 29},
     {name = "Imp", chance = 15},
     {name = "Glimmering Sprite", chance = 5},
-    {name = "Cockatrice", chance = 0},
+    {name = "Cockatrice", chance = 0.5},
 },
 ["Fall Egg"] = {
     {name = "Robin", chance = 50},
